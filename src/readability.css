@@ -1,0 +1,85 @@
+/* Shared type scale and spacing for the explorer, generated text, and forms. */
+:root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px}
+h1,h2,h3,h4,.brand{font-family:inherit}
+.hero h1{font-size:clamp(48px,4.5vw,68px)}
+.hero-copy>p{font-size:16px;line-height:1.8;max-width:520px}
+.hero-eyebrow,.eyebrow,.compound-title-row .eyebrow{font-size:11px;letter-spacing:1.1px;line-height:1.7}
+.nav-link,.text-button,.primary-button,.small-button,.hero-jump{font-size:14px}
+.site-header{gap:35px}.header-actions{gap:14px}
+.model-settings-button{display:flex;align-items:center;gap:7px;padding:9px 11px;border:1px solid var(--line);border-radius:7px;font-size:13px;white-space:nowrap}
+.model-settings-button:hover{background:var(--soft)}
+.discovery h2,.results-heading h2{font-size:26px;line-height:1.45}
+.powered-label,.search-bottom,.results-heading>span,.results-footnote,.known-heading>span,.site-footer,.connection-status{font-size:12px;line-height:1.7}
+.search-input{align-items:flex-start;padding:23px;gap:16px}
+.search-input>svg{margin-top:8px}
+.search-input textarea{font-size:16px;line-height:1.75;min-height:72px;max-height:320px;resize:none;width:0;padding:3px 0}
+.search-input .primary-button{align-self:flex-end;min-height:48px}
+.search-bottom{padding:12px 23px}.search-bottom kbd{font-size:12px}
+.example-prompts>span,.known-number,.match-label,.ai-label,.message-author,.legend-label{font-size:10px!important;letter-spacing:.8px}
+.example-prompts button{font-size:13px;padding:9px 12px;line-height:1.5}
+.known-heading h2{font-size:21px}.known-card{padding:25px;display:flex;flex-direction:column;align-items:flex-start}
+.known-card-top{width:100%;margin-top:20px}.known-card h3{font-size:27px;font-weight:600;letter-spacing:-.8px}
+.known-formula,.compound-identity>.formula{font-family:inherit;font-variant-numeric:lining-nums;letter-spacing:.2px}
+.known-formula{font-size:22px;line-height:1.5;margin-top:9px;color:var(--muted)}
+.formula{font-family:Inter,system-ui,sans-serif;letter-spacing:.1px;white-space:nowrap;font-variant-numeric:lining-nums}
+.formula sub{font-size:.72em;position:relative;vertical-align:baseline;bottom:-.28em;font-weight:inherit;letter-spacing:0}
+.known-card p{font-size:14px;line-height:1.75;margin-top:19px}.known-open{font-size:13px;position:static;margin-top:auto;padding-top:25px}
+.how-it-works>span{font-size:11px}.how-it-works p{font-size:14px}.how-it-works p i{font-size:11px}
+.site-footer{flex-wrap:wrap;padding:23px 0}.site-footer>span:nth-child(2){font-size:12px}.connection-status{font-size:11px}
+.column-heading h3{font-size:17px}.column-heading>span,.candidate-rank{font-size:12px}
+.candidate-top h4{font-size:18px;line-height:1.5}.candidate-body>.formula{font-size:16px;margin-top:8px}
+.candidate-body p{font-size:14px;line-height:1.8}.verified-note,.unverified-note{font-size:12px;line-height:1.65}
+.empty-column,.error-notice,.loading,.identifying-state p{font-size:14px;line-height:1.8}
+.identifying-state h3{font-size:18px}.results-heading{align-items:flex-start}
+.clarification{display:block;padding:27px;font-size:16px;line-height:1.8}
+.clarification-question{display:flex;align-items:flex-start;gap:14px}.clarification-question>svg{margin-top:5px;color:var(--accent)}
+.clarification-suggestions{margin:21px 0 0 35px;border-top:1px solid var(--line);padding-top:18px}
+.clarification-suggestions>span{display:block;font-size:13px;color:var(--muted);margin-bottom:12px}
+.clue-group{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:10px 0}.clue-group strong{font-size:13px;font-weight:550;min-width:115px}
+.clue-group button{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:7px 13px;font-size:13px;color:var(--accent)}
+.clue-group button:hover{border-color:var(--accent)}.clarification-suggestions>p{font-size:12px;color:var(--muted);margin-top:14px}
+.workspace-grid{grid-template-columns:minmax(0,1fr) 380px}
+.compound-title-row h1{font-size:40px}.iupac{font-size:14px;line-height:1.85}.iupac>span{font-size:10px}
+.compound-identity a,.source-link,.workspace-nav .text-button,.compound-switcher button{font-size:13px}
+.molecular-form{display:flex;align-items:center;gap:22px;border:1px solid var(--line);border-radius:10px;background:var(--soft);padding:17px 20px;margin-bottom:22px}
+.molecular-form label{font-size:13px;font-weight:550;display:flex;align-items:center;gap:12px;flex-shrink:0}
+.molecular-form select,.settings-field input,.settings-field select{font:inherit;font-size:14px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:10px;max-width:100%}
+.molecular-form p{font-size:13px;line-height:1.75;color:var(--muted)}
+.panel-heading h2,.section-title h2{font-size:16px}.segmented button{font-size:13px;min-width:43px;padding:7px 11px}
+.canvas-label{font-size:10px;letter-spacing:.8px}.viewer-footer{padding:17px 20px;gap:17px}
+.element-legend>span,.viewer-toggles{font-size:13px}.viewer-toggles input{width:14px;height:14px}.element-legend .legend-label{font-size:9px!important}
+.projection-controls label,.projection-controls select,.projection-help,.projection-caption,.structure-note{font-size:13px;line-height:1.75}
+.projection-controls select{max-width:240px}.projection-help li strong{min-width:105px}
+.chat-panel{height:clamp(600px,74vh,780px)}.chat-heading{padding:18px}.chat-heading h2{font-size:17px}.chat-heading>div>span{font-size:12px}
+.chat-context{font-size:12px;padding:11px 18px}.chat-scroll{padding:22px 20px;scrollbar-width:thin;scrollbar-color:var(--muted) transparent}
+.chat-welcome h3{font-size:20px}.chat-welcome>p{font-size:14px;line-height:1.8;max-width:310px}
+.suggested-questions button{font-size:13px;line-height:1.65;padding:11px 13px}
+.chat-message{font-size:15px;line-height:1.8;margin-bottom:23px}.message-author{margin-bottom:9px;font-weight:600}
+.rich-text{font-size:inherit;line-height:1.8}.rich-text p{white-space:normal;line-height:1.8;margin:0 0 14px}.rich-text p:last-child{margin-bottom:0}
+.rich-text h3{font-size:1.12em;line-height:1.55;margin:24px 0 11px;font-weight:650;letter-spacing:-.2px}
+.rich-text h4{font-size:1.02em;line-height:1.6;margin:21px 0 9px;font-weight:650}
+.rich-text>:first-child{margin-top:0}.rich-text strong{font-weight:650;color:var(--ink)}
+.rich-text ul,.rich-text ol{margin:12px 0 18px;padding-left:24px}.rich-text li{padding-left:3px;margin:8px 0}.rich-text li>p{margin:0}.rich-text li>ul,.rich-text li>ol{margin:8px 0}
+.rich-text code{font-size:.88em;background:var(--soft);border-radius:4px;padding:2px 5px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.rich-text pre{overflow-x:auto;white-space:pre;background:var(--canvas);padding:15px;border:1px solid var(--line);border-radius:8px;margin:15px 0}.rich-text pre code{padding:0;background:none}
+.rich-text blockquote{border-left:3px solid var(--accent);margin:16px 0;padding:4px 0 4px 16px;color:var(--muted)}
+.rich-text hr{border:0;border-top:1px solid var(--line);margin:22px 0}.markdown-table{overflow-x:auto;margin:16px 0}.markdown-table table{width:100%;border-collapse:collapse;font-size:.9em;text-align:left}
+.markdown-table th,.markdown-table td{border:1px solid var(--line);padding:9px 12px;min-width:100px}.markdown-table th{background:var(--soft);font-weight:600}
+.chat-composer textarea{font-size:15px;line-height:1.7;min-height:54px;max-height:220px;resize:none}.chat-composer{padding:13px 13px 10px}
+.chat-composer>div>span,.chat-footnote{font-size:10px}.chat-footnote{line-height:1.65;padding:11px 13px 15px}.inline-error{font-size:13px}
+.summary-panel>.rich-text{font-size:15px;color:var(--ink)}.summary-panel .loading{min-height:65px;flex-direction:row;padding:18px 0;text-align:left;justify-content:flex-start}
+.summary-generating{animation:summary-blink 1.6s ease-in-out infinite}.summary-panel .loading:has(.summary-generating){font-size:14px}
+@keyframes summary-blink{0%,100%{opacity:.4}50%{opacity:1}}
+.properties-grid dt{font-size:12px;line-height:1.65}.properties-grid dd{font-size:23px;line-height:1.5}.properties-grid dd small{font-size:13px}
+.unavailable,.identifiers summary{font-size:13px}.identifiers dt{font-size:12px}.identifiers dd{font-size:13px}.computed-marker{font-size:10px;color:var(--accent)}
+.guide-content p,.guide-content li{font-size:15px;line-height:1.8}.guide-content h3{font-size:18px}
+.settings-field{display:flex;flex-direction:column;gap:9px;margin-top:20px;font-size:14px;font-weight:550}
+.settings-field input,.settings-field select{width:100%;padding:12px;font-size:15px}.settings-field small{font-size:12px;line-height:1.8;font-weight:400;color:var(--muted)}
+.guide-content .settings-privacy,.guide-content .settings-help{font-size:13px;line-height:1.8}.settings-privacy{background:var(--soft);padding:13px;border-radius:7px}
+.settings-help code{font-size:12px;overflow-wrap:anywhere}.settings-actions{display:flex;align-items:center;gap:12px;justify-content:space-between;margin-top:25px;flex-wrap:wrap}
+.source-list{display:flex;flex-wrap:wrap;gap:4px 16px}
+.settings-actions .primary-button{margin-top:0}.settings-actions .small-button{display:flex;align-items:center;gap:7px}.settings-notice{color:var(--accent)!important}
+@media(max-width:1150px){.site-header{gap:25px}.workspace-grid{grid-template-columns:minmax(0,1fr) 340px}.molecular-form{align-items:flex-start;flex-direction:column;gap:10px}.panel-heading{flex-wrap:wrap}.properties-grid{grid-template-columns:repeat(2,1fr)}.how-it-works p{font-size:13px}}
+@media(max-width:850px){.workspace-grid{grid-template-columns:1fr}.chat-panel{height:650px}.hero-copy>p{font-size:15px}.panel-heading{flex-wrap:nowrap}.site-header nav{gap:16px}.model-settings-button>span{display:none}.model-settings-button{padding:8px}.molecular-form select{font-size:14px}.mobile-workspace-tabs>button{font-size:14px}.known-card p{font-size:13px}.known-card h3{font-size:23px}.known-formula{font-size:21px}.known-card{padding:20px}.example-prompts button{font-size:12px}.canvas-label{font-size:9px}}
+@media(max-width:600px){.site-header{gap:8px}.site-header nav{margin-right:5px}.header-actions{gap:7px}.brand{font-size:19px}.nav-link{font-size:12px}.hero-copy>p{font-size:15px}.hero h1{font-size:52px}.hero-eyebrow{font-size:10px}.discovery-heading{flex-wrap:wrap}.discovery h2{max-width:none;font-size:24px}.powered-label{font-size:12px}.search-input textarea{font-size:16px;min-height:85px;max-height:300px;padding:0}.search-input .primary-button{font-size:14px}.search-input{padding:18px;gap:14px}.search-bottom{font-size:11px;padding:12px 18px}.example-prompts>span{font-size:10px}.known-heading h2{font-size:20px;max-width:none}.known-heading>span{display:none}.known-card{padding:23px}.known-card p{max-width:none;font-size:14px}.known-card h3{font-size:27px}.known-open{font-size:13px;margin-top:0;padding-top:22px}.known-number{font-size:10px}.how-it-works p{font-size:12px;max-width:100px}.how-it-works>span{font-size:10px;line-height:1.8}.how-it-works p i{font-size:10px}.site-footer>span:nth-child(2){font-size:11px}.connection-status{font-size:10px}.site-footer>div{font-size:12px}.results-heading h2{font-size:23px}.results-heading>span{font-size:12px}.results-footnote{font-size:12px}.candidate-top{flex-wrap:wrap}.candidate-top h4{font-size:18px}.candidate-body p{font-size:14px}.clarification{padding:20px;font-size:15px}.clarification-question{gap:10px}.clarification-suggestions{margin-left:0}.clue-group strong{width:100%}.compound-title-row h1{font-size:30px}.compound-title-row .eyebrow{font-size:10px}.compound-title-row{flex-wrap:wrap}.compound-identity{max-width:100%;text-align:left;padding:0;display:flex;align-items:center;gap:20px}.compound-identity a{font-size:13px;margin:0}.iupac{font-size:13px}.molecular-form{padding:16px}.molecular-form label{flex-direction:column;align-items:flex-start;gap:9px;width:100%}.molecular-form select{width:100%}.panel-heading h2{font-size:13px}.segmented button{font-size:12px;min-width:34px;padding:6px 8px}.viewer-footer{padding:15px}.viewer-toggles,.element-legend>span{font-size:12px}.projection-controls label,.projection-controls select,.projection-help,.projection-caption,.structure-note{font-size:12px}.projection-select{flex-wrap:wrap}.section-title{flex-wrap:wrap}.section-title h2{font-size:16px}.ai-label{font-size:9px!important}.summary-panel>.rich-text{font-size:15px}.properties-grid dt{font-size:12px}.properties-grid dd{font-size:22px}.source-link{font-size:12px}.guide-content p,.guide-content li{font-size:14px}.settings-actions{align-items:stretch;flex-direction:column}.settings-actions button{justify-content:center}.chat-panel{height:690px;max-height:85dvh;min-height:490px}.chat-composer textarea{max-height:180px}.canvas-label{font-size:8px}.match-label{font-size:9px!important}}
+@media(prefers-reduced-motion:reduce){.summary-generating{animation:none}}
